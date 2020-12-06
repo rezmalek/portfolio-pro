@@ -74,7 +74,7 @@ h4 {
     letter-spacing: var(--spacing);
     text-transform: capitalize;
     line-height: 1.25;
-    margin-bottom: 0.75rem;
+    margin-bottom: .75rem;
     font-family: var(--ff-primary);
 }
 h1 {
@@ -84,7 +84,7 @@ h2 {
     font-size: 2.5rem;
 }
 h3 {
-    font-size: 175rem;
+    font-size: 1.75rem;
 }
 h4 {
     font-size: 1rem;
@@ -156,7 +156,7 @@ p {
 .nav-title {
     text-shadow: var(--light-shadow);
     font-family: var(--ff-secondary);
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
 }
 .nav-title span {
     color: var(--clr-primary-5);
@@ -189,7 +189,7 @@ p {
     display: block;
     transition: var(--transition);
     font-weight: bold;
-    padding: 0.75rem 0;
+    padding: .75rem 0;
 }
 .links a:hover {
     color: var(--clr-grey-1);
@@ -215,7 +215,7 @@ p {
     }
     .links {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         justify-items: center;
         column-gap: 2rem;
         justify-self: end;
@@ -228,7 +228,7 @@ p {
         letter-spacing: var(--spacing);
         transition: var(--transition);
         display: block;
-        padding: 0.75rem 0; 
+        padding: .75rem 0; 
     }
     .links a:hover {
         color: var(--clr-primary-5);
@@ -452,7 +452,10 @@ main {
     width: 80vw;
     max-width: 50rem;
     margin: 0 auto;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
+}
+.resume-btn {
+    margin-top: 3rem;
 }
 @media screen and (min-width: 768px) {
     .contact-text {
@@ -465,10 +468,6 @@ main {
     }
 }
 .contact .social-icons {
-/*     display: grid;
-    
-    width: 20rem;
-    grid-template-columns: repeat(4, 1fr); */
     justify-items: center;
     margin-top: 1rem;
 }
