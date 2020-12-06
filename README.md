@@ -3,7 +3,7 @@
 ## Built With
 - HTML
 - CSS
-- JS
+- JavaScript
 
 ## Website 
 https://rezmalek.github.io/portfolio-pro/
