@@ -412,11 +412,13 @@ main {
 @media screen and (min-width: 992px) {
     .projects-center {
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 200px 200px;
+      grid-template-rows: 200px 200px 200px;
       gap: 1rem;
       grid-template-areas:
         "a b b"
-        "a c d";
+        "a c d"
+        "e e f"
+
     }
     .project-img {
         height: 100%;
@@ -435,6 +437,12 @@ main {
       }
       .project-4 {
         grid-area: d;
+      }
+       .project-5 {
+        grid-area: e;
+      }
+      .project-6 {
+        grid-area: f;
       }
   }
 
